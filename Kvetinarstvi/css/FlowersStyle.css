@@ -1,0 +1,43 @@
+.flower-info {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #515e40;
+}
+
+.flower-info h1 {
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.flower-info p {
+  font-size: 20px;
+}
+
+.flowers-container {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flowers-container h2 {
+  font-size: 40px;
+  color: #515e40;
+  padding-left: 35px;
+  margin-bottom: 15px;
+}
+
+.flowers-container img {
+  border: 1px solid #515e40;
+  border-radius: 5px;
+  margin: 30px;
+  margin-top: 0;
+  height: 350px;
+  transition: transform 0.2s;
+}
+
+.flowers-container img:hover {
+  transform: scale(1.05);
+}
+

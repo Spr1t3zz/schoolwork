@@ -1,0 +1,16 @@
+.body-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding-top: 50px;
+  justify-content: center;
+  color: #515e40;
+}
+
+.special {
+  color: #b2c99f;
+}
+
+.body-right h2 {
+  font-size: 35px;
+}
