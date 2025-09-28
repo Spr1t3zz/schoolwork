@@ -1,0 +1,52 @@
+.flowers-container h2 {
+  font-size: 40px;
+  color: #515e40;
+  padding-left: 66px;
+  padding-top: 65px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.Flowers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.flower-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flower {
+  border: 1px solid #515e40;
+  border-radius: 5px;
+  height: 350px;
+  transition: transform 0.2s;
+}
+
+.flower:hover {
+  transform: scale(1.05);
+}
+
+.flowers-container p {
+  color: #515e40;
+  font-weight: bold;
+}
+
+.flower-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.basket-icon {
+  height: 20px;
+}
